@@ -12,7 +12,7 @@ data = []
 
 url = f"https://api.themoviedb.org/3/movie/popular?language=en-US&page={500}"
 response = requests.get(url, headers=headers).json()
-print(dir(websockets))
+
 # for i in range(41444):
 #     try:
 #         url = f"https://api.themoviedb.org/3/movie/popular?language=en-US&page={i+1}"
